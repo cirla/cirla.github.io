@@ -1,0 +1,4 @@
+/nesdev             http://nesdev.timcheeseman.com                  200
+/nesdev/*           http://nesdev.timcheeseman.com/:splat           200
+/funwithcomputers   http://funwithcomputers.timcheeseman.com        200
+/funwithcomputers/* http://funwithcomputers.timcheeseman.com/:splat 200

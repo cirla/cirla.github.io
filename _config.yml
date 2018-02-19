@@ -1,4 +1,5 @@
 timezone: America/New_York
 sass:
-    style: :compressed
-
+  style: :compressed
+include:
+  - _redirects
