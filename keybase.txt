@@ -1,52 +1,53 @@
 ---
 ---
-==================================================================
+====================================================================
 https://keybase.io/cirla
 --------------------------------------------------------------------
 
 I hereby claim:
 
-  * I am an admin of http://timcheeseman.com
+  * I am an admin of https://timcheeseman.com
   * I am cirla (https://keybase.io/cirla) on keybase.
   * I have a public key ASAi264kx1tyXq_rmv71OjSv41todu-t8PMpbbAP51351Ao
 
 To do so, I am signing this object:
 
 {
-    "body": {
-        "key": {
-            "eldest_kid": "012022dbae24c75b725eafeb9afef53a34afe35b6876efadf0f3296db00fe75df9d40a",
-            "host": "keybase.io",
-            "kid": "012022dbae24c75b725eafeb9afef53a34afe35b6876efadf0f3296db00fe75df9d40a",
-            "uid": "3cae1717aa75ebdb842d2eb642d04419",
-            "username": "cirla"
-        },
-        "service": {
-            "hostname": "timcheeseman.com",
-            "protocol": "http:"
-        },
-        "type": "web_service_binding",
-        "version": 1
+  "body": {
+    "key": {
+      "eldest_kid": "012022dbae24c75b725eafeb9afef53a34afe35b6876efadf0f3296db00fe75df9d40a",
+      "host": "keybase.io",
+      "kid": "012022dbae24c75b725eafeb9afef53a34afe35b6876efadf0f3296db00fe75df9d40a",
+      "uid": "3cae1717aa75ebdb842d2eb642d04419",
+      "username": "cirla"
     },
-    "client": {
-        "name": "keybase.io go client",
-        "version": "1.0.17"
-    },
-    "ctime": 1473383417,
-    "expire_in": 504576000,
     "merkle_root": {
-        "ctime": 1473383406,
-        "hash": "f6302af8dcd94ea284f19c5206529280778b0eb2e2ab4ddff680e562a1832f1416a89ad67913e4e9bd40b9afb110232abca1bc27e03c87de6d8d0ff050fb5623",
-        "seqno": 626199
+      "ctime": 1519089815,
+      "hash": "5d1a6703b60d5808448b8c8f7a85455f7efcf7d7981e6a1b84aabeb471b59be3dfe71d5c655694a614bb39bce4e40ef5ac6ac311f349f0e8237c573d4408837c",
+      "hash_meta": "da9b375d9806cc2173e55a994b7e4f646a51a64ab75ad722e0a24ab457972c83",
+      "seqno": 2125411
     },
-    "prev": "73193b2aac457d1569cb8789092a53d2bc8fd1bc3f2d879b5b32dc1aba4f9ede",
-    "seqno": 8,
-    "tag": "signature"
+    "service": {
+      "hostname": "timcheeseman.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.40"
+  },
+  "ctime": 1519089850,
+  "expire_in": 504576000,
+  "prev": "3982a69ebfaa2688350793d35f75f49d5f221605ab31a47cf08d817d5c3a214b",
+  "seqno": 25,
+  "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgItuuJMdbcl6v65r+9To0r+NbaHbvrfDzKW2wD+dd+dQKp3BheWxvYWTFAvR7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMjJkYmFlMjRjNzViNzI1ZWFmZWI5YWZlZjUzYTM0YWZlMzViNjg3NmVmYWRmMGYzMjk2ZGIwMGZlNzVkZjlkNDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMjJkYmFlMjRjNzViNzI1ZWFmZWI5YWZlZjUzYTM0YWZlMzViNjg3NmVmYWRmMGYzMjk2ZGIwMGZlNzVkZjlkNDBhIiwidWlkIjoiM2NhZTE3MTdhYTc1ZWJkYjg0MmQyZWI2NDJkMDQ0MTkiLCJ1c2VybmFtZSI6ImNpcmxhIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJ0aW1jaGVlc2VtYW4uY29tIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xNyJ9LCJjdGltZSI6MTQ3MzM4MzQxNywiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDczMzgzNDA2LCJoYXNoIjoiZjYzMDJhZjhkY2Q5NGVhMjg0ZjE5YzUyMDY1MjkyODA3NzhiMGViMmUyYWI0ZGRmZjY4MGU1NjJhMTgzMmYxNDE2YTg5YWQ2NzkxM2U0ZTliZDQwYjlhZmIxMTAyMzJhYmNhMWJjMjdlMDNjODdkZTZkOGQwZmYwNTBmYjU2MjMiLCJzZXFubyI6NjI2MTk5fSwicHJldiI6IjczMTkzYjJhYWM0NTdkMTU2OWNiODc4OTA5MmE1M2QyYmM4ZmQxYmMzZjJkODc5YjViMzJkYzFhYmE0ZjllZGUiLCJzZXFubyI6OCwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEDNVkIKC+fSiFdfySNSkNfDR9V5tL/bWqD4sfbRL+suSQnGWXPibJ5CqiITfcNiaVJ4OFjZYS70GRQBZQqtafYOqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgR4/wuUZWYmpoDQpwHZVNFj2xk1Z/BIaGUsCsNlodEGOjdGFnzQICp3ZlcnNpb24B
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgItuuJMdbcl6v65r+9To0r+NbaHbvrfDzKW2wD+dd+dQKp3BheWxvYWTFA0Z7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMjJkYmFlMjRjNzViNzI1ZWFmZWI5YWZlZjUzYTM0YWZlMzViNjg3NmVmYWRmMGYzMjk2ZGIwMGZlNzVkZjlkNDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMjJkYmFlMjRjNzViNzI1ZWFmZWI5YWZlZjUzYTM0YWZlMzViNjg3NmVmYWRmMGYzMjk2ZGIwMGZlNzVkZjlkNDBhIiwidWlkIjoiM2NhZTE3MTdhYTc1ZWJkYjg0MmQyZWI2NDJkMDQ0MTkiLCJ1c2VybmFtZSI6ImNpcmxhIn0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTE5MDg5ODE1LCJoYXNoIjoiNWQxYTY3MDNiNjBkNTgwODQ0OGI4YzhmN2E4NTQ1NWY3ZWZjZjdkNzk4MWU2YTFiODRhYWJlYjQ3MWI1OWJlM2RmZTcxZDVjNjU1Njk0YTYxNGJiMzliY2U0ZTQwZWY1YWM2YWMzMTFmMzQ5ZjBlODIzN2M1NzNkNDQwODgzN2MiLCJoYXNoX21ldGEiOiJkYTliMzc1ZDk4MDZjYzIxNzNlNTVhOTk0YjdlNGY2NDZhNTFhNjRhYjc1YWQ3MjJlMGEyNGFiNDU3OTcyYzgzIiwic2Vxbm8iOjIxMjU0MTF9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoidGltY2hlZXNlbWFuLmNvbSIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjQwIn0sImN0aW1lIjoxNTE5MDg5ODUwLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6IjM5ODJhNjllYmZhYTI2ODgzNTA3OTNkMzVmNzVmNDlkNWYyMjE2MDVhYjMxYTQ3Y2YwOGQ4MTdkNWMzYTIxNGIiLCJzZXFubyI6MjUsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAJkLiAPCE59iJrHLCuxovT31/TIQmOohjXD/sFjR+Oxn0d988RmJjq18EtAON2w/Y8aR+XCubdJljHgkS8LAJBahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHtTRjIEM9W6vNf3XRj7V9M7K37HME4miZ8/Nc8597clo3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
