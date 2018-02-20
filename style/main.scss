@@ -1,69 +1,15 @@
 ---
 ---
-@import url("https://fonts.googleapis.com/css?family=Carrois+Gothic|Pompiere");
+// Adapted from https://github.com/jamigibbs/portfolio
 
-a {
-    color: #629632;
-}
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/css/foundation.min.css");
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville");
+@import "logos";
 
-a:hover {
-    color: #000000;
-}
-
-body {
-    background-color: #ffffff;
-    font-family: 'Carrois Gothic', sans-serif;
-    margin: 0;
-}
-
-#bio {
-    margin: 40px 0px 60px 0px;
-}
-
-#content {
-   margin: 50px;
-}
-
-#hi {
-    margin-top: 100px;
-}
-
-#links {
-    margin-top: 40px;
-}
-
-#links a {
-    font-size:25px;
-    margin: 5px 10px 5px 0;
-}
-
-#projects {
-    margin-top: 40px;
-}
-
-#name {
-    font-size: 72px;
-    font-family: 'Pompiere', cursive;
-    margin: 0;
-}
-
-#pic {
-    background-image: url('../images/tim.jpg');
-    background-repeat: no-repeat;
-    float: right;
-    height: 100%;
-    position: fixed;
-    right: 0;
-    width: 40%;
-}
-
-#split {
-    float: left;
-    text-align: right;
-    width: 55%;
-}
-
-ul {
-    list-style: none;
-}
-
+@import "variables";
+@import "base";
+@import "type";
+@import "layout";
+@import "masthead";

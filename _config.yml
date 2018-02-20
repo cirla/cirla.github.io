@@ -1,5 +1,45 @@
 timezone: America/New_York
 sass:
-  style: :compressed
+  sass_dir: style
+  style: compressed
 include:
   - _redirects
+
+title: Tim Cheeseman
+description: Tim Cheeseman. Software Developer. tim@timcheeseman.com
+tagline: |-
+  I make computers do fun things.
+  Sometimes those things are also useful.
+url: https://timcheeseman.com
+keywords:
+  - tim
+  - cheeseman
+  - developer
+  - software development
+
+author:
+  name: Tim Cheeseman
+  url: https://timcheeseman.com
+  email: tim@timcheeseman.com
+  resume: files/resume_20180305.pdf
+  pubkey: files/pubkey.asc
+  github: cirla
+  twitter: tim_cheeseman
+  keybase: cirla
+  hacker_news: cirla
+  lobsters: cirla
+  linkedin: timothycheeseman
+
+projects:
+  - title: Fun With Computers
+    url: /funwithcomputers
+    description: |
+      An anthology of literate programming works that attempts to highlight the breadth
+      and depth of amusement and utility that one can achieve with a bit of technomancy and a lot of curiosity.
+  - title: "&quot;Modern&quot; NES Development"
+    url: /nesdev
+    description: |
+      A tutorial series for developing NES games in C and taking advantage of modern tooling
+      provided by a passionate and resourceful community.
+
+google_analytics: UA-60152626-1
