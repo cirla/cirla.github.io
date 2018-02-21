@@ -33,12 +33,12 @@ author:
 projects:
   - title: Fun With Computers
     url: /funwithcomputers
-    description: |
+    description: >-
       An anthology of literate programming works that attempts to highlight the breadth
       and depth of amusement and utility that one can achieve with a bit of technomancy and a lot of curiosity.
-  - title: "&quot;Modern&quot; NES Development"
+  - title: "&#8220;Modern&#8221; NES Development"
     url: /nesdev
-    description: |
+    description: >-
       A tutorial series for developing NES games in C and taking advantage of modern tooling
       provided by a passionate and resourceful community.
 
