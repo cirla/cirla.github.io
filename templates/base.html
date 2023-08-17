@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="{{ config.extra.description }}" />
+    <meta name="keywords" content="{{ config.extra.keywords | join(sep=", ") }}" />
+
+    <title>{% block title %}{{ title }}{% endblock title %}</title>
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-60152626-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-60152626-1");
+    </script>
+
+    <link rel="stylesheet" href="{{ get_url(path='fonts.css') }}" />
+    <link
+      rel="stylesheet"
+      href="{{ get_url(path='fontawesome/css/fontawesome.css') }}"
+    />
+    <link rel="stylesheet" href="{{ get_url(path='hallo.css') }}" />
+
+    <!-- favicon CC BY Katie Wright https://thenounproject.com/Katie_Wright/ -->
+    <link rel="icon" href="favicon.png" />
+
+    {% if config.extra.theme %}
+    <style>
+      body {
+          color: {{ config.extra.theme.foreground }} !important;
+          background-color: {{ config.extra.theme.background }} !important;
+      }
+
+      a {
+          color: {{ config.extra.theme.foreground }} !important;
+      }
+
+      a:hover {
+          color: {{ config.extra.theme.hover }} !important;
+      }
+
+
+      img.portrait {
+          border: 10px solid {{ config.extra.theme.foreground }} !important;
+      }
+    </style>
+    {% endif %}
+  </head>
+  <body>
+    <main>{% block content %}{% endblock content %}</main>
+  </body>
+</html>

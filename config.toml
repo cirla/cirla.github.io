@@ -1,0 +1,32 @@
+base_url = "https://timcheeseman.com"
+theme = "hallo"
+compile_sass = true
+build_search_index = true
+title = "Tim Cheeseman"
+
+[markdown]
+highlight_code = true
+
+[extra]
+description = "Tim Cheeseman. Software Developer. tim@timcheeseman.com"
+keywords = ["tim", "cheeseman", "developer", "software development"]
+
+greeting = "Hi!"
+iam = "I'm"
+links = [
+    { title = "E-Mail", url = "mailto:tim@timcheeseman.com", iconset = "fas", icon = "fa-envelope" },
+    { title = "GitHub", url = "https://github.com/cirla", iconset = "fab", icon = "fa-github" },
+    { title = "Résumé/CV", url = "/files/resume_20220513.pdf", iconset = "fas", icon = "fa-file-pdf" },
+    { title = "LinkedIn", url = "https://www.linkedin.com/in/timothycheeseman", iconset = "fab", icon = "fa-linkedin" },
+    { title = "Hacker News", url = "https://news.ycombinator.com/user?id=cirla", iconset = "fab", icon = "fa-hacker-news" },
+    { title = "Lobsters", url = "https://lobste.rs/u/cirla", icon = "icon-lobsters" },
+    { title = "PGP Public Key", url = "/files/pubkey.asc", iconset = "fas", icon = "fa-lock" }
+]
+
+[extra.author]
+name = "Tim Cheeseman"
+
+[extra.theme]
+background = "#6495ED"
+foreground = "#FFF"
+hover = "#333"
