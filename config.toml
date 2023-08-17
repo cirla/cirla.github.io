@@ -20,6 +20,7 @@ links = [
     { title = "LinkedIn", url = "https://www.linkedin.com/in/timothycheeseman", iconset = "fab", icon = "fa-linkedin" },
     { title = "Hacker News", url = "https://news.ycombinator.com/user?id=cirla", iconset = "fab", icon = "fa-hacker-news" },
     { title = "Lobsters", url = "https://lobste.rs/u/cirla", icon = "icon-lobsters" },
+    { title = "Keybase", url = "https://keybase.io/cirla", icon = "icon-keybase" },
     { title = "PGP Public Key", url = "/files/pubkey.asc", iconset = "fas", icon = "fa-lock" }
 ]
 
